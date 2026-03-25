@@ -5,3 +5,5 @@ schema_version = 1
 authors = ["Veronica Vinkler <veronica.vinkler@gmail.com>"]
 description = "Blue-Pink theme"
 repository = "https://github.com/veronicavinkler/Winter-Sakura-theme-for-Zed.git"
+
+themes = ["themes/winter-sakura-theme-light.json", "themes/winter-sakura-theme-dark.json"]
