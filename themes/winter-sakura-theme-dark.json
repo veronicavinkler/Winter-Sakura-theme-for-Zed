@@ -1,1 +1,85 @@
 
+{
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+  "name": "Winter-Sakura-Theme",
+  "author": "Veronica Vinkler",
+  "themes": [
+    {
+      "name": "winter-sakura-theme-dark",
+      "appearance": "dark",
+      "style": {
+        "background": "#002147",
+        "foreground": "#E0E6ED",
+        "accent": "#FFB7C5",
+        
+        "border": "#1A3A5F",
+        "border.variant": "#001C3D",
+        "border.focused": "#FFB7C5",
+        "border.disabled": "#001C3D",
+        
+        "elevated_surface.background": "#001C3D",
+        "surface.background": "#002147",
+        
+        "element.background": "#002147",
+        "element.hover": "#002D5F",
+        "element.active": "#FFB7C580", 
+        "element.selected": "#FFB7C54D",
+        "element.disabled": "#001C3D",
+        
+        "text": "#E0E6ED",
+        "text.muted": "#7B8EAB",
+        "text.placeholder": "#4A5F78",
+        "text.disabled": "#4A5F78",
+        "text.accent": "#FFB7C5",
+        
+        "status_bar.background": "#001C3D",
+        "title_bar.background": "#001C3D",
+        "toolbar.background": "#002147",
+        "tab_bar.background": "#001630",
+        "tab.inactive_background": "#001630",
+        "tab.active_background": "#002147",
+        
+        "editor.background": "#002147",
+        "editor.gutter.background": "#002147",
+        "editor.subheader.background": "#001C3D",
+        "editor.active_line.background": "#FFFFFF0A", 
+        "editor.highlighted_line.background": "#FFB7C54D",
+        "editor.line_number": "#4A5F78",
+        "editor.active_line_number": "#FFB7C5",
+        "editor.wrap_guide": "#1A3A5F",
+        "editor.active_wrap_guide": "#FFB7C580",
+
+        /* Pink Gutter Changes */
+        "git.modified": "#FFB7C5",
+        
+        "terminal.background": "#001630",
+        "terminal.foreground": "#E0E6ED",
+        "terminal.ansi.black": "#001630",
+        "terminal.ansi.red": "#FFB7C5",
+        "terminal.ansi.green": "#A8DADC",
+        "terminal.ansi.yellow": "#FADFAC",
+        "terminal.ansi.blue": "#A2D2FF",
+        "terminal.ansi.magenta": "#CDB4DB",
+        "terminal.ansi.cyan": "#BDE0FE",
+        "terminal.ansi.white": "#E0E6ED",
+        "terminal.ansi.bright_red": "#FFC2CD",
+        "terminal.ansi.bright_white": "#FFFFFF",
+        
+        "syntax": {
+          "attribute": { "color": "#F1A7B4" },
+          "boolean": { "color": "#82AAFF" },
+          "comment": { "color": "#4A5F78", "font_style": "italic" },
+          "constant": { "color": "#82AAFF" },
+          "function": { "color": "#A2D2FF" },
+          "keyword": { "color": "#FFB7C5" },
+          "number": { "color": "#F1A7B4" },
+          "operator": { "color": "#FFB7C5" },
+          "property": { "color": "#82AAFF" },
+          "string": { "color": "#A8DADC" },
+          "type": { "color": "#F1A7B4" },
+          "variable": { "color": "#E0E6ED" }
+        }
+      }
+    }
+  ]
+}
